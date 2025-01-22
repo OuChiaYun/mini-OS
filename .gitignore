@@ -1,1 +1,12 @@
 *.zip
+
+# for ref, ignore file
+/disk/*
+!/disk/.gitkeep
+*.map
+*.tar
+*.o
+*.elf
+*.bin
+*.log
+*.pcap
