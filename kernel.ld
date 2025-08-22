@@ -1,7 +1,5 @@
 ENTRY(boot)
 
-# ENTRY(boot) 声明 boot 函数是程序的入口点。然后，在 SECTIONS 块中定义每个段的放置位置
-
 SECTIONS {
     . = 0x80200000;
 
